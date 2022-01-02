@@ -52,3 +52,9 @@ You will need both **ffmpeg** and **python** installed for the script to work.**
   sudo rm /usr/bin/imagetovideo && sudo rm /usr/bin/itv
   ```
 **This will remove both the script and the link (Shortcut)**
+
+# Quick install
+
+  ```
+  git clone https://github.com/JustCoww/ImageToVideo && cd ImageToVideo && sudo cp imagetovideo /usr/bin && sudo ln /usr/bin/imagetovideo /usr/bin/itv && sudo chmod +x /usr/bin/imagetovideo
+  ```
