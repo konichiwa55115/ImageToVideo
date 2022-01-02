@@ -2,9 +2,7 @@
 A simple script written in python using ffmpeg to merge an image file and audio file into a single video.
 
 
-# Installation
-
-# Quick install
+# Install
 
   ```
   git clone https://github.com/JustCoww/ImageToVideo && cd ImageToVideo && sudo cp imagetovideo /usr/bin && sudo ln /usr/bin/imagetovideo /usr/bin/itv && sudo chmod +x /usr/bin/imagetovideo && cd && rm -rf ImageToVideo
