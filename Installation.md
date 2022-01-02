@@ -11,7 +11,7 @@ You will need both **ffmpeg** and **python** installed for the script to work.**
   git clone https://github.com/JustCoww/ImageToVideo && cd ImageToVideo
   ```
 
-**Then, to install the script just run this command in your terminal.**
+**Then, run this command in your terminal to install the script.**
 
   ```
   sudo cp imagetovideo /usr/bin && sudo ln /usr/bin/imagetovideo /usr/bin/itv && sudo chmod +x /usr/bin/imagetovideo
