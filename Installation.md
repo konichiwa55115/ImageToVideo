@@ -31,6 +31,7 @@
     
   ![cp](https://user-images.githubusercontent.com/68345611/147874902-b5385cc3-3f52-480d-9e1f-764050f95698.png)
   
+  # 
   
   ```
   sudo ln /usr/bin/imagetovideo /usr/bin/itv
@@ -40,10 +41,13 @@
     
   ![ln](https://user-images.githubusercontent.com/68345611/147874878-2bd010d3-ed3f-4e80-ab5f-e30e5aaeb3a8.png)
   
+  #
 
   ```
   sudo chmod +x /usr/bin/imagetovideo
   ```
+  
+  #
 
   **This will make both 'itv' and 'imagetovideo' executable**
     
