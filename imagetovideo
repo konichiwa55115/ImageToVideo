@@ -4,17 +4,12 @@
 # https://trac.ffmpeg.org/wiki/Slideshow
 
 from os import system as cmd
+from time import sleep
 
 png = input('Insert the image location: ')
 audio = input('Insert the audio location: '); mp3 = audio
 output = input('What name do you want the output to have? ') + '.mp4'
 resolution = input('What resolution do you want the video to have? \n(16K, 12K, 8K, 4K, 1080p, auto) ').lower()
-
-# Check to see if debug is on
-if png.find('-debug') or png.find('-d'):
-    print(png)
-    print(audio)
-    print(output)
 
 # Render the video using ffmpeg
 if resolution == '16k':
@@ -27,5 +22,5 @@ elif resolution == '4k':
     cmd('ffmpeg -r 1 -loop 1 -y -i ' + png + ' -i ' + audio + ' -c:v libx264 -tune stillimage -c:a copy -shortest -vf scale=3840:2160 ' + output )
 elif resolution == '1080p':
     cmd('ffmpeg -r 1 -loop 1 -y -i ' + png + ' -i ' + audio + ' -c:v libx264 -tune stillimage -c:a copy -shortest -vf scale=1920:1080 ' + output )
-elif resolution == 'auto':
+else:
     cmd('ffmpeg -r 1 -loop 1 -y -i ' + png + ' -i ' + audio + ' -c:v libx264 -tune stillimage -c:a copy -shortest ' + output )
