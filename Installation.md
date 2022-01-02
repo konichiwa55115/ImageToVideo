@@ -31,3 +31,12 @@ This will make both 'itv' and 'imagetovideo' executable
   sudo chmod +x /usr/bin/imagetovideo
   ```
   ![chmod](https://user-images.githubusercontent.com/68345611/147874928-e0bf745a-be5e-44b1-a2da-ec2f6c4fe5b6.png)
+
+
+**Uninstall**
+
+To uninstall the script just run
+  ```
+  sudo rm /usr/bin/imagetovideo && sudo rm /usr/bin/itv
+  ```
+This will remove both the script and the link (Shortcut)
