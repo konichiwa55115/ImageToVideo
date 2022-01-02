@@ -1,6 +1,6 @@
 **Install**
 
-First you need to make sure ffmpeg is installed.
+First you need to make sure you have both ffmpeg and python installed.
 
 Then, to install the script just run this command in your terminal.
 
