@@ -5,15 +5,13 @@ You will need both ffmpeg and python installed for the script to work.
 
 **Clone**
 
-First you need to clone the repository to your computer and enter it.
+First, clone the repository to your computer and enter it.
   ```
   git clone https://github.com/JustCoww/ImageToVideo && cd ImageToVideo
   ```
 
 
 **Install**
-
-First you need to make sure you have both ffmpeg and python installed.
 
 Then, to install the script just run this command in your terminal.
 
