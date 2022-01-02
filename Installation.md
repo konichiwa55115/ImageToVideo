@@ -1,9 +1,9 @@
-**Dependencies**
+# Dependencies
 
 You will need both ffmpeg and python installed for the script to work.
 
 
-**Clone**
+# Clone
 
 First, clone the repository to your computer and enter it.
   ```
@@ -11,7 +11,7 @@ First, clone the repository to your computer and enter it.
   ```
 
 
-**Install**
+# Install
 
 Then, to install the script just run this command in your terminal.
 
@@ -20,7 +20,7 @@ Then, to install the script just run this command in your terminal.
   ```
   
   
-**Command explanation**
+# Command explanation
 
 This will copy the script to your bin folder so that you can use it as a normal program in your computer.
 
@@ -46,7 +46,7 @@ This will make both 'itv' and 'imagetovideo' executable
   ![chmod](https://user-images.githubusercontent.com/68345611/147874928-e0bf745a-be5e-44b1-a2da-ec2f6c4fe5b6.png)
 
 
-**Uninstall**
+# Uninstall
 
 To uninstall the script just run
   ```
