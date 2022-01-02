@@ -23,7 +23,7 @@
 # Command explanation
 
 
-# CP
+# cp
 
 **This will copy the script to your bin folder so that you can use it as a normal program in your computer.**
 
@@ -32,7 +32,7 @@
   ```
   ![cp](https://user-images.githubusercontent.com/68345611/147874902-b5385cc3-3f52-480d-9e1f-764050f95698.png)
   
-# LN
+# ln
 
 **This will create a link (Shortcut) called itv so that you can run the script using 'itv' or 'imagetovideo'**
 
@@ -41,7 +41,7 @@
   ```
   ![ln](https://user-images.githubusercontent.com/68345611/147874878-2bd010d3-ed3f-4e80-ab5f-e30e5aaeb3a8.png)
 
-# CHMOD
+# chmod
 
 **This will make both 'itv' and 'imagetovideo' executable**
 
