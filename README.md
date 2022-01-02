@@ -1,5 +1,5 @@
 # Description
-A simple python script with the purpose of merging image and audio into a single video. 
+A simple script written in python using ffmpeg to merge an image file and audio file into a single video.
 
 
 # Installation
