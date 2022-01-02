@@ -23,7 +23,7 @@
 # Command explanation
 
 
-# cp
+# sudo cp imagetovideo /usr/bin
 
 **This will copy the script to your bin folder so that you can use it as a normal program in your computer.**
 
