@@ -1,6 +1,6 @@
 **Install**
-
-To install the script just run this command in your terminal.
+First you need to make sure ffmpeg is installed.
+Then, to install the script just run this command in your terminal.
 
   ```
   sudo cp imagetovideo /usr/bin && sudo ln /usr/bin/imagetovideo /usr/bin/itv && sudo chmod +x /usr/bin/imagetovideo && sudo chmod +x /usr/bin/itv
