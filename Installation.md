@@ -5,21 +5,22 @@ You will need both **ffmpeg** and **python** installed for the script to work.**
 
 # Install
 
-
-**First, clone the repository to your computer and enter it.**
-  ```
-  git clone https://github.com/JustCoww/ImageToVideo && cd ImageToVideo
-  ```
-
-**Then, run this command in your terminal to install the script.**
+**To install the script just run this command in your terminal to install the script.**
 
   ```
-  sudo cp imagetovideo /usr/bin && sudo ln /usr/bin/imagetovideo /usr/bin/itv && sudo chmod +x /usr/bin/imagetovideo
+  git clone https://github.com/JustCoww/ImageToVideo && cd ImageToVideo && sudo cp imagetovideo /usr/bin && sudo ln /usr/bin/imagetovideo /usr/bin/itv && sudo chmod +x /usr/bin/imagetovideo && cd && rm -rf ImageToVideo
   ```
   
   
 # Command explanation
 
+
+  ```
+  git clone https://github.com/JustCoww/ImageToVideo && cd ImageToVideo
+  ```
+  **This will clone this this repository to your computer and enter it.**
+  # 
+  
 
   ```
   sudo cp imagetovideo /usr/bin
@@ -43,8 +44,14 @@ You will need both **ffmpeg** and **python** installed for the script to work.**
   **This will make both 'itv' and 'imagetovideo' executable**
     
   ![chmod](https://user-images.githubusercontent.com/68345611/147874928-e0bf745a-be5e-44b1-a2da-ec2f6c4fe5b6.png)
-  
+  #
 
+  ```
+  cd && rm -rf ImageToVideo
+  ```
+  **This will exit the repo folder and delete it.** 
+  
+  
 # Uninstall
 
 **To uninstall the script just run**
@@ -52,9 +59,3 @@ You will need both **ffmpeg** and **python** installed for the script to work.**
   sudo rm /usr/bin/imagetovideo && sudo rm /usr/bin/itv
   ```
 **This will remove both the script and the link (Shortcut)**
-
-# Quick install
-
-  ```
-  git clone https://github.com/JustCoww/ImageToVideo && cd ImageToVideo && sudo cp imagetovideo /usr/bin && sudo ln /usr/bin/imagetovideo /usr/bin/itv && sudo chmod +x /usr/bin/imagetovideo
-  ```
