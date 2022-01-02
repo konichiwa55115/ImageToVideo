@@ -14,7 +14,7 @@ This will copy the script to your bin folder so that you can use it as a normal 
   ```
   sudo cp imagetovideo /usr/bin
   ```
-  ![cp](https://user-images.githubusercontent.com/68345611/147859724-bfa50dd0-4fc0-40c1-8ca3-5268c8cacbb2.png)
+  ![cp](https://user-images.githubusercontent.com/68345611/147874869-8d1eab73-eb36-4326-bc2c-c0da65584d6f.png)
   
   
 This will create a link (Shortcut) called itv so that you can run the script using 'itv' or 'imagetovideo'
@@ -22,7 +22,7 @@ This will create a link (Shortcut) called itv so that you can run the script usi
   ```
   sudo ln /usr/bin/imagetovideo /usr/bin/itv
   ```
-  ![ln](https://user-images.githubusercontent.com/68345611/147859729-77369698-fff6-49b1-908c-8f7cab30347a.png)
+  ![ln](https://user-images.githubusercontent.com/68345611/147874878-2bd010d3-ed3f-4e80-ab5f-e30e5aaeb3a8.png)
 
   
 This will make both 'itv' and 'imagetovideo' executable
