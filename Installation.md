@@ -30,4 +30,4 @@ This will make both 'itv' and 'imagetovideo' executable
   ```
   sudo chmod +x /usr/bin/imagetovideo
   ```
-  ![chmod](https://user-images.githubusercontent.com/68345611/147859732-b516e73d-b7a8-42f1-a1d0-2ce80fe48f84.png)
+  ![chmod](https://user-images.githubusercontent.com/68345611/147874928-e0bf745a-be5e-44b1-a2da-ec2f6c4fe5b6.png)
