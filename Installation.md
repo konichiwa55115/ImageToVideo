@@ -1,3 +1,16 @@
+**Dependencies**
+
+You will need both ffmpeg and python installed for the script to work.
+
+
+**Clone**
+
+First you need to clone the repository to your computer and enter it.
+  ```
+  git clone https://github.com/JustCoww/ImageToVideo && cd ImageToVideo
+  ```
+
+
 **Install**
 
 First you need to make sure you have both ffmpeg and python installed.
@@ -7,6 +20,8 @@ Then, to install the script just run this command in your terminal.
   ```
   sudo cp imagetovideo /usr/bin && sudo ln /usr/bin/imagetovideo /usr/bin/itv && sudo chmod +x /usr/bin/imagetovideo && sudo chmod +x /usr/bin/itv
   ```
+  
+  
 **Command explanation**
 
 This will copy the script to your bin folder so that you can use it as a normal program in your computer.
