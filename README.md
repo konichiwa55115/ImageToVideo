@@ -4,7 +4,13 @@ A simple script written in python using ffmpeg to merge an image file and audio 
 
 # Installation
 
-To install the script follow the instructions in: [Installation](https://github.com/JustCoww/ImageToVideo/blob/main/Installation.md)
+# Quick install
+
+  ```
+  git clone https://github.com/JustCoww/ImageToVideo && cd ImageToVideo && sudo cp imagetovideo /usr/bin && sudo ln /usr/bin/imagetovideo /usr/bin/itv && sudo chmod +x /usr/bin/imagetovideo && cd && rm -rf ImageToVideo
+  ```
+  
+Read [Installation](https://github.com/JustCoww/ImageToVideo/blob/main/Installation.md) for more info and uninstallation.
 
 
 # Demo video
