@@ -1,6 +1,6 @@
 # Dependencies
 
-**You will need both ffmpeg and python installed for the script to work.**
+You will need both **ffmpeg** and **python** installed for the script to work.**
 
 
 # Clone
