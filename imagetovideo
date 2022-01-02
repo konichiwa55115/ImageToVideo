@@ -7,8 +7,8 @@ from os import system as cmd
 from time import sleep
 
 png = input('Insert the image location: ')
-audio = input('Insert the audio location: '); mp3 = audio
-output = input('What name do you want the output to have? ') + '.mp4'
+audio = input('Insert the audio location: ')
+output = '"' + input('What name do you want the output to have? ') + '.mp4' + '"'
 resolution = input('What resolution do you want the video to have? \n(16K, 12K, 8K, 4K, 1080p, auto) ').lower()
 
 # Render the video using ffmpeg
