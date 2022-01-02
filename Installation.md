@@ -45,7 +45,7 @@
   **This will make both 'itv' and 'imagetovideo' executable**
     
   ![chmod](https://user-images.githubusercontent.com/68345611/147874928-e0bf745a-be5e-44b1-a2da-ec2f6c4fe5b6.png)
-  #
+  
 
 # Uninstall
 
