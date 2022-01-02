@@ -1,5 +1,7 @@
 **Install**
+
 First you need to make sure ffmpeg is installed.
+
 Then, to install the script just run this command in your terminal.
 
   ```
