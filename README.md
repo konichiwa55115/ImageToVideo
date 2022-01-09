@@ -1,5 +1,5 @@
 # Dependencies
-You will need both **ffmpeg** and **python** installed for the script to work and **git** for the install to work.
+You will need both **ffmpeg** and **python** installed for the script to work and **git** for the installation to work.
 
 # Install
 To install the script just run this command in your terminal.
