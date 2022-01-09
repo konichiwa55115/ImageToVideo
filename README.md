@@ -6,8 +6,16 @@ To install the script just run this command in your terminal.
   ```
   git clone https://github.com/JustCoww/ImageToVideo && cd ImageToVideo && sudo cp imagetovideo /usr/bin && sudo ln /usr/bin/imagetovideo /usr/bin/itv && sudo chmod +x /usr/bin/imagetovideo && cd && rm -rf ImageToVideo
   ```
-  
-Read [Installation](https://github.com/JustCoww/ImageToVideo/blob/main/Installation.md) for more info and uninstallation.
+Read [Installation](https://github.com/JustCoww/ImageToVideo/blob/main/Installation.md) for more info.
+
+
+# Uninstall
+
+**To uninstall the script just run**
+  ```
+  sudo rm /usr/bin/ytdw
+  ```
+**This will remove the script from your system**
 
 
 # Usage
