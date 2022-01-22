@@ -14,7 +14,7 @@ To install the script just run this command in your terminal.
 
 **To uninstall the script just run**
   ```
-  sudo rm /usr/bin/ytdw
+  sudo rm /usr/bin/itv && sudo rm /usr/bin/imagetovideo
   ```
 **This will remove the script from your system**
 
