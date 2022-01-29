@@ -4,11 +4,31 @@ You will need both **ffmpeg** and **python** installed for the script to work an
 # Install
 **Before running this in your terminal please read [Installation](https://github.com/JustCoww/ImageToVideo/blob/main/Installation.md) to understand what this does.**
 
-To install the script just run this command in your terminal.
+
+**Arch Based**
   ```
-  git clone https://github.com/JustCoww/ImageToVideo ~/ImageToVideo && sudo cp ~/ImageToVideo/imagetovideo /usr/bin && sudo chmod +x /usr/bin/imagetovideo && sudo ln /usr/bin/imagetovideo /usr/bin/itv && rm -rf ~/ImageToVideo
+  sudo pacman -S curl ffmpeg python3 && sudo curl https://github.com/JustCoww/ImageToVideo/blob/main/imagetovideo -o /usr/bin/imagetovideo && sudo chmod a+rx /usr/bin/imagetovideo && ln /usr/bin/imagetovideo /usr/bin/itv
+  ```
+  
+  
+**Debian Based**
+  ```
+  sudo apt install curl ffmpeg python3 && sudo curl https://github.com/JustCoww/ImageToVideo/blob/main/imagetovideo -o /usr/bin/imagetovideo && sudo chmod a+rx /usr/bin/imagetovideo && ln /usr/bin/imagetovideo /usr/bin/itv
+  ```
+  
+  
+**Other**
+
+Just make sure you have curl, ffmpeg and python3 installed and run this.
+  ```
+  sudo curl https://github.com/JustCoww/ImageToVideo/blob/main/imagetovideo -o /usr/bin/imagetovideo && sudo chmod a+rx /usr/bin/imagetovideo && ln /usr/bin/imagetovideo /usr/bin/itv
   ```
 
+  # Usage
+Just run '**itv**' or '**imagetovideo**' in your terminal and follow the instructions.
+  ```
+  itv
+  ```
 
 # Uninstall
 
@@ -17,10 +37,6 @@ To install the script just run this command in your terminal.
   sudo rm /usr/bin/itv && sudo rm /usr/bin/imagetovideo
   ```
 **This will remove the script from your system**
-
-
-# Usage
-Just run '**itv**' or '**imagetovideo**' in your terminal and follow the instructions.
 
 
 # Demo video
