@@ -1,5 +1,5 @@
 # Dependencies
-You will need both **ffmpeg** and **python** installed for the script to work and **git** for the installation to work.
+You will need both **ffmpeg** and **python** installed for the script to work and **curl** for the installation to work.
 
 # Install
 **Before running this in your terminal please read [Installation](https://github.com/JustCoww/ImageToVideo/blob/main/Installation.md) to understand what this does.**
