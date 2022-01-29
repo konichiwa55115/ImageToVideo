@@ -7,13 +7,13 @@ You will need both **ffmpeg** and **python** installed for the script to work an
 
 **Arch Based**
   ```
-  sudo pacman -S curl ffmpeg python3 && sudo curl https://github.com/JustCoww/ImageToVideo/blob/main/imagetovideo -o /usr/bin/imagetovideo && sudo chmod a+rx /usr/bin/imagetovideo && ln /usr/bin/imagetovideo /usr/bin/itv
+  sudo pacman -S curl ffmpeg python3 && sudo curl https://raw.githubusercontent.com/JustCoww/ImageToVideo/main/imagetovideo -o /usr/bin/imagetovideo && sudo chmod a+rx /usr/bin/imagetovideo && sudo ln /usr/bin/imagetovideo /usr/bin/itv
   ```
   
   
 **Debian Based**
   ```
-  sudo apt install curl ffmpeg python3 && sudo curl https://github.com/JustCoww/ImageToVideo/blob/main/imagetovideo -o /usr/bin/imagetovideo && sudo chmod a+rx /usr/bin/imagetovideo && ln /usr/bin/imagetovideo /usr/bin/itv
+  sudo apt install curl ffmpeg python3 && sudo curl https://raw.githubusercontent.com/JustCoww/ImageToVideo/main/imagetovideo -o /usr/bin/imagetovideo && sudo chmod a+rx /usr/bin/imagetovideo && sudo ln /usr/bin/imagetovideo /usr/bin/itv
   ```
   
   
@@ -21,7 +21,7 @@ You will need both **ffmpeg** and **python** installed for the script to work an
 
 Just make sure you have curl, ffmpeg and python3 installed and run this.
   ```
-  sudo curl https://github.com/JustCoww/ImageToVideo/blob/main/imagetovideo -o /usr/bin/imagetovideo && sudo chmod a+rx /usr/bin/imagetovideo && ln /usr/bin/imagetovideo /usr/bin/itv
+  sudo curl https://raw.githubusercontent.com/JustCoww/ImageToVideo/main/imagetovideo -o /usr/bin/imagetovideo && sudo chmod a+rx /usr/bin/imagetovideo && ln /usr/bin/imagetovideo /usr/bin/itv
   ```
 
   # Usage
