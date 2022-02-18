@@ -1,26 +1,14 @@
 #!/usr/bin/python3
-# Made the command with help of these guys
-# https://superuser.com/questions/1041816/combine-one-image-one-audio-file-to-make-one-video-using-ffmpeg
-# https://trac.ffmpeg.org/wiki/Slideshow
-
 from os import system as cmd
-from time import sleep
 
 png = input('Insert the image location: ')
 audio = input('Insert the audio location: ')
-output = '"' + input('What name do you want the output to have? ') + '.mp4' + '"'
-resolution = input('What resolution do you want the video to have? \n(16K, 12K, 8K, 4K, 1080p, auto) ').lower()
+output = f'"{input("What name do you want the output to have? ")}.mp4"'
+res = input('What resolution do you want the video to have? \n( auto (1), 1080p (2), 4K (3), 8K (4), 12K (5), 16K (6) ) ')
+resolutions = [('1', ''), ('2', '1920:1080'), ('3', '3840:2160'), ('4', '7680:4320'), ('5', '11520:4320'), ('6', '15360:8640')]
+for i in range(len(resolutions)):
+    if res == resolutions[i][0]:
+        res = '-vf scale=' + resolutions[i][1]
 
 # Render the video using ffmpeg
-if resolution == '16k':
-    cmd('ffmpeg -r 1 -loop 1 -y -i ' + png + ' -i ' + audio + ' -c:v libx264 -tune stillimage -c:a copy -shortest -vf scale=15360:8640 ' + output )
-elif resolution == '12k':
-    cmd('ffmpeg -r 1 -loop 1 -y -i ' + png + ' -i ' + audio + ' -c:v libx264 -tune stillimage -c:a copy -shortest -vf scale=11520:4320 ' + output )
-elif resolution == '8k':
-    cmd('ffmpeg -r 1 -loop 1 -y -i ' + png + ' -i ' + audio + ' -c:v libx264 -tune stillimage -c:a copy -shortest -vf scale=7680:4320 ' + output )
-elif resolution == '4k':
-    cmd('ffmpeg -r 1 -loop 1 -y -i ' + png + ' -i ' + audio + ' -c:v libx264 -tune stillimage -c:a copy -shortest -vf scale=3840:2160 ' + output )
-elif resolution == '1080p':
-    cmd('ffmpeg -r 1 -loop 1 -y -i ' + png + ' -i ' + audio + ' -c:v libx264 -tune stillimage -c:a copy -shortest -vf scale=1920:1080 ' + output )
-else:
-    cmd('ffmpeg -r 1 -loop 1 -y -i ' + png + ' -i ' + audio + ' -c:v libx264 -tune stillimage -c:a copy -shortest ' + output )
+cmd(f'ffmpeg -r 1 -loop 1 -y -i {png} -i {audio} -c:v libx264 -tune stillimage -c:a copy -shortest {res} {output}')
