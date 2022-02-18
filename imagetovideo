@@ -5,6 +5,7 @@ png = input('Insert the image location: ')
 audio = input('Insert the audio location: ')
 output = f'"{input("What name do you want the output to have? ")}.mp4"'
 res = input('What resolution do you want the video to have? \n( auto (1), 1080p (2), 4K (3), 8K (4), 12K (5), 16K (6) ) ')
+
 resolutions = [('1', ''), ('2', '1920:1080'), ('3', '3840:2160'), ('4', '7680:4320'), ('5', '11520:4320'), ('6', '15360:8640')]
 for i in range(len(resolutions)):
     if res == resolutions[i][0]:
