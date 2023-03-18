@@ -4,7 +4,7 @@ from os import system as cmd
 png = "pic"
 audio = "aud"
 output = f'"resultx.mp4"'
-res = 2
+res = '2'
 
 resolutions = [('1', ''), ('2', '1920:1080'), ('3', '3840:2160'), ('4', '7680:4320'), ('5', '11520:4320'), ('6', '15360:8640')]
 for i in range(len(resolutions)):
