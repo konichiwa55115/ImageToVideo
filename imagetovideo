@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 from os import system as cmd
 
-png = "pic"
-audio = "aud"
+png = "./downloads/pic"
+audio = "./downloads/aud"
 output = f'"resultx.mp4"'
 res = '2'
 
